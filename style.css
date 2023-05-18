@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'segoe UI',Tahoma,Genev, verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0.3,0.2),rgba(0,0,0.3,0.5 )) ,url('img/img12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+
+}
+
+header{
+    width: auto;
+    overflow: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+.logo{
+    width: 100%;
+    background-image: url('img/img8.jpg' );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+fieldset{
+    border: 4px solid #290000;
+    padding: 20px;
+    
+}
+
+.logo h2{
+    color: #cccccc;
+    text-align: center;
+    font-size: 50px ;
+}
+
+nav ul li:hover{
+    background: #150000;
+}
+
+nav{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3 )), #290000;
+}
+
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5 )), #290000;
+    margin: 0px 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.question{
+    margin-top: 10%;
+    color: #cccccc;
+    text-align: center;
+    font-size: 35px;
+}
+
+button{
+    width: 200px;
+    height: 75px ;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+}
+
+button:hover{
+    background:#d8d8d8;
+    border: 1px solid #d8d8d8;
+}
+
+.Contact{ 
+    text-align: center;
+    background: #000000;
+    color: #cccccc;
+    margin-top: 200px;
+}
+
+.Contact_li{
+    display: inline-block;
+    list-style: none;
+    background: #000000;
+    margin: 20px;
+}
+
+.Contact_li:hover{
+   border: 1px solid #c5c5c5;
+}
+
+.Contact_ul{
+    width: auto;
+    overflow: auto;
+}
+
+.end{
+    text-align: center;
+    background: #5f5f5f;
+    color: #000000;
+}
+
+.sgin{
+    margin-top: 8%;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    background-color: #150000;
+    position: relative;
+    padding: 50px ;
+    left: 32%;
+    border-radius: 20px;
+    color: #cccccc;
+    justify-content: center;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 200px;
+    margin: 3px;
+}
+
+input[type="email"],input[type="password"]{
+    height: 50px;
+    width: 420px;
+}
+
+input[type="submit"]{
+    background-color: #4b4040;
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+}
+
+input[type="submit"]:hover{
+    background-color: #5b3030;
+    border: 2px solid #cccccc;
+}
+
+input{
+    color: #cccccc;
+    border: 2px solid #cccccc;
+    background-color: #150000;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+h4{
+    color: #cccccc;
+    font-family: 'segoe UI',Tahoma,Genev, verdana, sans-serif;
+     font-size: 35px;
+}
+
+table{
+    width:100%;
+    font-size: 150%;
+    padding: 200px 1%;
+    text-align: center;
+}
+
+table td{
+    width: auto;
+    padding: 2% 3%;
+    text-align: center;
+}
+
+table tr{
+    width: auto;
+    text-align: center;
+}
+
+.imgs{
+    width: 95%;
+    height: auto ;
+    padding: 10px ;
+}
+
+hr {
+    width: 100% ;
+    height: 3px;
+    color: #290000;
+}
+.about{
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    padding: 7% 3%;
+    color: #000000;
+}
+.about ul{
+    overflow:auto;
+    width: 100%;
+}
+
+.about li{
+    list-style: none;
+}
+
+#about{
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    padding: 7% 3%;
+    color: #000000;
+}
